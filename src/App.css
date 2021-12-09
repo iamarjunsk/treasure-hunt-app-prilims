@@ -1,38 +1,51 @@
-.App {
+.Home {
   text-align: center;
+  padding: 1.5rem;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.inp{
+  height: 1.4rem;
+  border-radius: 5px;
+  border-color: rgb(22, 111, 163);;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn{
+  height: 1.7rem;
+  margin-left: .6rem;
+  min-width: 4rem;
+  border: none;
+  border-radius: 5px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.bggrn{
+  background-color: rgb(22, 111, 163);
+  color: rgb(243, 236, 236);
+}
+.mt{
+  margin-top: 2rem;
+}
+.time{
+  font-size: 2.5rem;
+  color: rgb(24, 91, 150);
+}
+.treasure{
+  font-size: 1.5rem;
+  color: gold;
+}
+.clues{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  justify-items: center;
 }
-
-.App-link {
-  color: #61dafb;
+.clue{
+  width: 16rem;
+  background-color: rgba(34, 178, 214, 0.76);
+  border-radius: 5px;
+  margin: .5rem;
+  padding: .5rem;
+  color: darkblue;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.img{
+  max-height: 4rem;
+  min-height: 4rem;
 }

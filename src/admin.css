@@ -1,0 +1,46 @@
+.Admin{
+    text-align: center;
+}
+.cardholder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card{
+    margin: 1rem;
+    background-color: rgb(0, 130, 139);
+    min-width: 20rem;
+}
+.tres{
+    background-color: darkgoldenrod;
+    padding: .5rem;
+}
+.clues{
+    padding: .5rem;
+}
+.clues div{
+    margin-bottom: .3rem;
+}
+.mt{
+    margin-top: 2rem;
+}
+input{
+    width: 14rem;
+    height: 1.5rem;
+    margin-top: .5rem;
+}
+button{
+    height: 2rem;
+    border-radius: 5px;
+    border: none;
+    min-width: 4rem;
+    margin-bottom: .4rem;
+}
+.bgred{
+    background-color: darkred;
+    color: wheat;
+}
+.bggren{
+    background-color: rgb(30, 145, 106);
+    color: rgb(248, 245, 245);
+}
